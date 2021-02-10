@@ -1,0 +1,20 @@
+ID: Przypadek testowy 1
+Tytuł: Rejestracja nowego konta na stronie filmweb.pl przy użyciu nieprawidłowego adresu e-mail.
+Opis: Poniższy przypadek testowy pozwala stwierdzić czy strona blokuje możliwość założenia konta przy podaniu nieprawidłowego adresu e-mail.
+
+Warunki wstępne:
+1.	Przeglądarka otwarta na stronie https://www.filmweb.pl/
+Kroki:
+1.	Kliknąć „Zaloguj się” w prawym górnym rogu strony
+2.	Kliknąć  „Załóż nowe konto”
+3.	W polu „Nazwa użytkownika" wpisać nazwę użytkownika: nowy_uzytkownik98742
+4.	W polu „Twój adres e-mail" wpisać niepoprawny adres e-mail - bez znaku @: nowy_uzytkownik98742.wp.pl
+5.	W polu „Hasło - minimum 6 znaków" wpisać hasło: 123456
+6.	W polu „Powtórz hasło" ponownie wpisać hasło: 123456
+7.	Kliknąć „Załóż nowe konto”
+
+Oczekiwany rezultat:
+1. W polu „Twój adres e-mail" wyświetlony zostanie komunikat o podaniu nieprawidłowego maila („Nieprawidłowy adres e-mail”)
+
+Warunek końcowy:
+1. Konto nie zostanie założone
