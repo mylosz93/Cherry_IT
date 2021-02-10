@@ -1,0 +1,13 @@
+User story:
+
+Jako użytkownik sklepu internetowego chcę mieć możliwość wyszukania interesujących mnie produktów, przefiltrowania wyników
+wyszukiwania i dodania interesujących mnie produktów
+
+Acceptance criteria:
+- Użytkownik musi mieć założone konto i musi być na nim zalogowany
+- Istnieje poprawnie działająca wyszukiwarka obsługująca produkty znajdujące się w ofercie sklepu
+- Istnieje pasek zawierający właściwości produktów po których użytkownik może filtrować swoje wyszukiwanie
+- Przy każdym dostępnym w ofercie produkcie znajdują się przyciski "Dodaj do koszyka", "Dodaj do listy życzeń"
+- W przypadku chwilowej niedostępności produktu istnieje przycisk "Poinformuj mnie o dostępności" oraz "Dodaj do listy życzeń"
+- Po zamknięciu przeglądarki i jej ponownym otworzeniu i zalogowaniu na konto, lista życzeń i koszyk pozostają w niezmienionym stanie
+w stosunku do stanu przed zamknięciem przeglądarki  
