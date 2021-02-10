@@ -1,0 +1,25 @@
+ID : Błąd 001
+Tytuł: Strona filmweb.pl pozwala na założenie konta przy podaniu nieprawidłowego adresu e-mail w czasie rejestracji
+Priorytet: Wysoki
+Reprodukowalność: Za każdym razem
+Środowisko:
+	Przeglądarka Google Chrome Wersja 88.0.4324.146(64-bitowa)
+	System operacyjny: Windows 10 Pro
+
+Kroki do reprodukcji błędu:
+1. 	Wejść na stronę filmweb.pl
+2.	Kliknąć „Zaloguj się” w prawym górnym rogu strony
+3.	Kliknąć  „Załóż nowe konto”
+4.	W polu „Nazwa użytkownika" wpisać nazwę użytkownika: nowy_uzytkownik98742
+5.	W polu „Twój adres e-mail" wpisać niepoprawny adres e-mail - bez znaku @: nowy_uzytkownik98742.wp.pl
+6.	W polu „Hasło - minimum 6 znaków" wpisać hasło: 123456
+7.	W polu „Powtórz hasło" ponownie wpisać hasło: 123456
+8.	Kliknąć „Załóż nowe konto”
+
+Oczekiwany rezultat:
+W polu „Twój adres e-mail" wyświetlony zostanie komunikat o podaniu nieprawidłowego maila („Nieprawidłowy adres e-mail”). Rejestracja nie zostanie dokonana.
+
+Rzeczywisty rezultat:
+Strona akceptuje podane dane i przechodzi do kolejnego okna rejestracji.
+
+Zgłosił: Miłosz Komarczewski
